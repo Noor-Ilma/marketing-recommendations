@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Load dataset
-data = pd.read_csv('credit_risk_dataset.csv')
+data = pd.read_csv('modcloth.csv.zip')
 
 # Data preprocessing (modify this based on your dataset)
 # Assuming columns 'income', 'loan_amount', 'credit_score', 'employment_length', and 'loan_default'
